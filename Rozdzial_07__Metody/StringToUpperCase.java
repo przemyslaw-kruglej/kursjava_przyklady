@@ -1,9 +1,9 @@
 public class StringToUpperCase {
-    public static void main(String[] args) {
-        String komunikat = "Witajcie po raz 20!";
+  public static void main(String[] args) {
+    String komunikat = "Witajcie po raz 20!";
 
-        komunikat.toUpperCase();
+    komunikat.toUpperCase();
 
-        System.out.println(komunikat);
-    }
+    System.out.println(komunikat);
+  }
 }
