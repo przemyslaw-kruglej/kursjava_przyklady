@@ -27,7 +27,9 @@ public class TestowanieCzyElementWTablicy {
 
     // then
     if (czyZawiera) {
-      System.out.println("Blad! Pusta tablica nie powinna nic zawierac.");
+      System.out.println(
+          "Blad! Pusta tablica nie powinna nic zawierac."
+      );
     }
   }
 
@@ -41,7 +43,9 @@ public class TestowanieCzyElementWTablicy {
 
     // then
     if (czyZawiera) {
-      System.out.println("Blad! Element 128 nie powinien byc znaleziony.");
+      System.out.println(
+          "Blad! Element 128 nie powinien byc znaleziony."
+      );
     }
   }
 
@@ -55,7 +59,9 @@ public class TestowanieCzyElementWTablicy {
 
     // then
     if (!czyZawiera) {
-      System.out.println("Blad! Element 128 powinien byc znaleziony.");
+      System.out.println(
+          "Blad! Element 128 powinien byc znaleziony."
+      );
     }
   }
 
@@ -69,7 +75,9 @@ public class TestowanieCzyElementWTablicy {
 
     // then
     if (!czyZawiera) {
-      System.out.println("Blad! Element 100 powinien byc znaleziony.");
+      System.out.println(
+          "Blad! Element 100 powinien byc znaleziony."
+      );
     }
   }
 
@@ -83,13 +91,17 @@ public class TestowanieCzyElementWTablicy {
 
     // then
     if (!czyZawiera) {
-      System.out.println("Blad! Element 300 powinien byc znaleziony.");
+      System.out.println(
+          "Blad! Element 300 powinien byc znaleziony."
+      );
     }
   }
 
   public static void c2zyZawieraElement_zawieraSukanyElementNaKoncu_zwrociTrue() {
     if (!czyZawieraElement(new int[] {100, 200, 300}, 300)) {
-      System.out.println("Blad! Element 300 powinien byc znaleziony.");
+      System.out.println(
+          "Blad! Element 300 powinien byc znaleziony."
+      );
     }
   }
 }

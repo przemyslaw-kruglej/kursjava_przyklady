@@ -13,7 +13,9 @@ public class TestowanieDoKwadratu {
     int wynik = doKwadratu(20);
 
     if (wynik != 400) {
-      System.out.println("Dla liczby 20 wyliczono nieprawidlowy kwadrat: " + wynik);
+      System.out.println(
+          "Dla liczby 20 wyliczono nieprawidlowy kwadrat: " + wynik
+      );
     }
   }
 
@@ -21,7 +23,9 @@ public class TestowanieDoKwadratu {
     int wynik = doKwadratu(-5);
 
     if (wynik != 25) {
-      System.out.println("Dla liczby -5 wyliczono nieprawidlowy kwadrat: " + wynik);
+      System.out.println(
+          "Dla liczby -5 wyliczono nieprawidlowy kwadrat: " + wynik
+      );
     }
   }
 
@@ -29,7 +33,9 @@ public class TestowanieDoKwadratu {
     int wynik = doKwadratu(0);
 
     if (wynik != 0) {
-      System.out.println("Dla liczby 0 wyliczono nieprawidlowy kwadrat: " + wynik);
+      System.out.println(
+          "Dla liczby 0 wyliczono nieprawidlowy kwadrat: " + wynik
+      );
     }
   }
 }

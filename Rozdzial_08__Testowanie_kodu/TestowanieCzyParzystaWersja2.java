@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class TestowanieCzyParzystaWersja2 {
   public static void main(String[] args) {
-    System.out.println("Prosze podac liczbe - sprawdze, czy jest parzysta.");
+    System.out.println(
+        "Prosze podac liczbe - sprawdze, czy jest parzysta."
+    );
 
     int liczba = getInt();
 

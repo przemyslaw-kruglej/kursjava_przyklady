@@ -6,7 +6,9 @@ public class TestowanieCzyParzystaWersja1 {
   }
 
   public static void czyParzysta() {
-    System.out.println("Prosze podac liczbe - sprawdze, czy jest parzysta.");
+    System.out.println(
+        "Prosze podac liczbe - sprawdze, czy jest parzysta."
+    );
 
     int liczba = getInt();
 
