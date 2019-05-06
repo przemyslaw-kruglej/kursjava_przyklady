@@ -21,7 +21,7 @@ public class PorownywanieObiektow {
     if (o1.equals(o3)) {
       System.out.println("o1 i o3 sa rowne");
     } else {
-      System.out.println("o1 i o2 nie sa rowne");
+      System.out.println("o1 i o3 nie sa rowne");
     }
 
     if (o4.equals(o3)) {
