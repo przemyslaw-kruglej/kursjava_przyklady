@@ -1,0 +1,3 @@
+class NieprawidlowyWiekException extends Exception {
+
+}
