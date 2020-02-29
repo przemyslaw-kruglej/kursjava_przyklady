@@ -42,5 +42,23 @@ public class Osoba {
     } catch (NieprawidlowyWiekException e) {
       System.out.println("Nieprawidlowy wiek!");
     }
+
+    try {
+      Osoba o = new Osoba("Joanna", "Strzelczyk", -1);
+    } catch (Exception e) {
+      System.out.println("Wystapil blad! Komunikat bledu: " + e.getMessage());
+    }
+
+    try {
+      Osoba o = new Osoba(null, "Strzelczyk", 30);
+    } catch (Exception e) {
+      System.out.println("Wystapil blad! Komunikat bledu: " + e.getMessage());
+    }
+
+    try {
+      Osoba o = new Osoba("Adrian", "Sochacki", 30);
+    } catch (NieprawidlowaWartoscException | NieprawidlowyWiekException e) {
+      System.out.println("Nieprawidlowa wartosc: " + e.getMessage());
+    }
   }
 }

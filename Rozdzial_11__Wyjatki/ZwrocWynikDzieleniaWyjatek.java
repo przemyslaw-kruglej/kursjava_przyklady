@@ -29,6 +29,30 @@ public class ZwrocWynikDzieleniaWyjatek {
     } finally {
       System.out.println("Blok try..catch..finally zakonczony!");
     }
+
+    // zakomentowane - powoduje bledy kompilacji, poniewaz
+    // zmienna wynik przestaje istniec poza blokiem sekcji try
+    /*
+    try {
+      int wynik = podziel(10, 2);
+    } catch (ArithmeticException e) {
+      System.out.println("Blad dzielenia, zmienna wynik ma wartosc: " + wynik);
+    } finally {
+      System.out.println("Sekcja finally: wynik wynosi " + wynik);
+    }
+    */
+
+    int wynik = 0;
+
+    try {
+      wynik = podziel(10, 2);
+    } catch (ArithmeticException e) {
+      System.out.println("Blad dzielenia, zmienna wynik ma wartosc: " + wynik);
+    } finally {
+      System.out.println("Sekcja finally: wynik wynosi " + wynik);
+    }
+
+    System.out.println("Po try wynik wynosi " + wynik);
   }
 
   public static int podziel(int a, int b) {
