@@ -41,6 +41,7 @@ Zacząłem także tworzyć serię artykułów [Przebranżowienie i praca program
   * [Część 2 – Istotne zagadnienia z wymaganą podstawową znajomością](https://kursjava.com/przebranzowienie-i-praca-programisty/co-trzeba-umiec-aby-zostac-programista-czesc-2)
   * [Część 3 – Dodatkowe technologie i narzędzia, które warto znać](https://kursjava.com/przebranzowienie-i-praca-programisty/co-trzeba-umiec-aby-zostac-programista-czesc-3)
 * [Wywiad z osobą, która przebranżowiła się na programistę](https://kursjava.com/przebranzowienie-i-praca-programisty/wywiad-z-osoba-ktora-przebranzowila-sie-na-programiste/)
+* [Jak zostać programistą?](https://kursjava.com/przebranzowienie-i-praca-programisty/jak-zostac-programista/)
 
 Kolejne kursy i artykuły wkrótce.
 
