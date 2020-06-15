@@ -4,7 +4,7 @@ public class InstrukcjaSwitchDzienTygodnia {
   public static void main(String[] args) {
     int dzienTygodnia;
 
-    System.out.println("Podaj dzien tygoddnia:");
+    System.out.println("Podaj dzien tygodnia:");
     dzienTygodnia = getInt();
 
     switch (dzienTygodnia) {
