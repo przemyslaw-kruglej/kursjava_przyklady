@@ -11,7 +11,7 @@ public class ZliczSamogloski {
       char znak = slowo.charAt(i);
 
       if (znak == 'a' || znak == 'e' || znak == 'i' ||
-          znak == 'u' || znak == 'o') {
+          znak == 'u' || znak == 'y' || znak == 'o') {
         liczbaSamoglosek++;
       }
     }
