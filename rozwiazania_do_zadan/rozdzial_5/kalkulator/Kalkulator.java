@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Kalkulator {
   public static void main(String[] args) {
-    // poczatek dzialanie programu jest szczegolny,
+    // poczatek dzialania programu jest szczegolny,
     // bo potrzebujemy dwoch liczb od uzytkownika,
     // wiec pobierzemy pierwsza z nich od razu i zapiszemy
     // w zmiennej poprzedniWynik
