@@ -4,10 +4,10 @@ public class ZmienneTypowZlozonych {
     pierwszySamochod.ustawKolor("Czerwony");
     pierwszySamochod.ustawPredkosc(80);
 
-    Samochod2 drugiSamochodd = pierwszySamochod;
-    drugiSamochodd.ustawKolor("Bialy");
+    Samochod2 drugiSamochod = pierwszySamochod;
+    drugiSamochod.ustawKolor("Bialy");
 
     System.out.println(pierwszySamochod);
-    System.out.println(drugiSamochodd);
+    System.out.println(drugiSamochod);
   }
 }
