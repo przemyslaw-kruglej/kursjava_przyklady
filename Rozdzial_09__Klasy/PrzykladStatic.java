@@ -27,11 +27,11 @@ public class PrzykladStatic {
     );
 
     System.out.println("Pole statyczne po zmianie (przez obiekt1): " +
-        PrzykladStatic.poleStatyczne // 5
+        obiekt1.poleStatyczne // 5
     );
 
     System.out.println("Pole statyczne po zmianie (przez obiekt2): " +
-        PrzykladStatic.poleStatyczne // 6
+        obiekt2.poleStatyczne // 6
     );
   }
 }
